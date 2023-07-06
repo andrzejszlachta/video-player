@@ -11,7 +11,7 @@ LIVE: https://andrzejszlachta.github.io/video-player/
 
 ## Overview
 
-description
+Video Player Project
 
 ### Built With
 
@@ -19,7 +19,11 @@ HTML, CSS, JavaScript
 
 ## Features
 
-1. feature 1
+1. Play/Pause
+2. Change playback speed
+3. Change current time by clcking progress bar
+4. Change volume
+5. Toggle fullscreen mode
 
 ## Contact
 
@@ -28,4 +32,4 @@ https://andrzejszlachta.github.io/
 
 ## Acknowledgements
 
-acknowledgments
+Video Source: https://www.pexels.com/video/aerial-view-of-sandy-beaches-and-a-golf-course-on-the-coast-of-monterey-california-15698543/  
