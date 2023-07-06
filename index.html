@@ -10,6 +10,54 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="player">
+    <video src="https://download-video.akamaized.net/2/download/941f35a0-0e07-4583-93eb-d82d1353ba63/e765c37f/163869%20%28720p%29.mp4?__token__=st=1688655240~exp=1688669640~acl=%2F2%2Fdownload%2F941f35a0-0e07-4583-93eb-d82d1353ba63%2Fe765c37f%2F163869%2520%2528720p%2529.mp4%2A~hmac=66f89c588f86e622c24e766f54159553ae9e75e6f28829060674c1516992ccf6&r=dXMtd2VzdDE%3D" class="video" id="video" playsinline></video>
+    <div class="show-controls">
+      <div class="controls-container">
+        <div class="progress-range" title="Seek">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="control-group">
+          <div class="controls-left">
+            <!-- play/pause -->
+            <div class="play-controls">
+              <i class="fa-solid fa-play" title="Play" id="playBtn"></i>
+            </div>
+            <!-- volume -->
+            <div class="volume">
+              <div class="volume-icon">
+                <i class="fa-solid fa-volume-up" title="Mute" id="volumeIcon"></i>
+              </div>
+              <div class="volume-range" title="Change Volume">
+                <div class="volume-bar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="controls-right">
+            <!-- speed -->
+            <div class="speed" title="Playback Rate">
+              <select name="playbackRate" class="player-speed">
+                <option value="0.5">0.5 x</option>
+                <option value="0.75">0.75 x</option>
+                <option value="1" selected>1 x</option>
+                <option value="1.5">1.5 x</option>
+                <option value="2">2 x</option>
+              </select>
+            </div>
+            <!-- time -->
+            <div class="time">
+              <span class="time-elapsed">00:00 /</span>
+              <span class="time-duration">02:38</span>
+            </div>
+            <!-- fullscreen -->
+            <div class="fullscreen">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- script -->
   <script src="script.js"></script>
 </body>
